@@ -1,5 +1,7 @@
 # [NeuriCam: Video Super Resolution and Colorization Using Key Frames](https://arxiv.org/pdf/2207.12496.pdf) (Accepted at MobiCom 2023)
 
+##[Google Colab by Pepe_Java](https://colab.research.google.com/drive/1h_oqJJgiqktEynrMEQcRZh91odEFRoei)
+
 A system based on key-frame video super-reosolution and colorization to achieve low-power
 video capture from dual-mode IOT cameras. This repository holds code for the model, NeuriCam-net,
 that runs on an edge receiver. NeuriCam-net reconstructs a high-reoslution color video
@@ -76,4 +78,7 @@ Each training or an evaluation run works on a 3 sets of videos avaialble in the 
     ...                        ...                        ...                         
 ```
 
+Lr-Set = Low Resolution Greyscale Frames
+Key-Set = High Resolution color frames
+Hr-Set = Final
 Paths to `lr-set`, `key-set` and `hr-set` have to be provided to respective flags in the train and eval commands above.
