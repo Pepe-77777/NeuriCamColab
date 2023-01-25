@@ -12,4 +12,3 @@ tqdm
 torchviz
 seaborn
 flow_vis
-mmcv-full
