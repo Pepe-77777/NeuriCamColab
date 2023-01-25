@@ -6,8 +6,6 @@ Pillow
 opencv-python
 scikit-image
 scikit-learn
-torch
-torchvision
 tqdm
 torchviz
 seaborn
