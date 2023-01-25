@@ -79,6 +79,6 @@ Each training or an evaluation run works on a 3 sets of videos avaialble in the 
 ```
 
 Lr-Set = Low Resolution Greyscale Frames
-Key-Set = High Resolution color frames
+Key-Set = High Resolution color frames (4x upscaled relative to lr-set)
 Hr-Set = Final
 Paths to `lr-set`, `key-set` and `hr-set` have to be provided to respective flags in the train and eval commands above.
